@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+header {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+
+header .container-nav {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  height: 80px;
+  border-bottom: 1px solid #bdb5af;
+}
+
+header .container-nav nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .container-nav nav h1 {
+  color: #4e3d1e;
+  cursor: pointer;
+}
+
+header .container-nav nav ul {
+  color: #4e3d1e;
+  margin: 10px;
+  cursor: pointer;
+}
+
+header .container-nav nav ul a {
+  padding: 15px;
+}
+
+header .container-nav nav ul a:hover {
+  color: #30488f;
+}
+
+header .container-nav nav .btn:hover {
+  background-color: #30488f;
+  color: white;
+}
+
+.btn {
+  color: #30488f;
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #30488f;
+  cursor: pointer;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+}
+
+section .container-1 {
+  width: 80%;
+  height: 700px;
+}
+
+section .container-1 .form-left {
+  float: left;
+  width: 50%;
+  height: 100%;
+  border: 1px solid #bdb5af;
+}
+
+section .container-1 .form-right {
+  float: right;
+  width: 50%;
+  height: 100%;
+  border: 1px solid #bdb5af;
+}
+

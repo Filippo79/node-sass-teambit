@@ -1,0 +1,37 @@
+header {
+    background-color: $primary_color;
+    display: flex;
+    justify-content: center;
+    .container-nav {
+        display: flex;
+        align-items: center;
+        width: 80%;
+        height: 80px;
+        border-bottom: 1px solid #bdb5af;
+        nav {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            h1 {
+                color: #4e3d1e;
+                cursor: pointer;
+            }
+            ul {
+                color: #4e3d1e;
+                margin: 10px;
+                cursor: pointer;
+                a{
+                    padding: 15px;
+                    &:hover {
+                        color: $color_btn
+                    }
+                }
+            }
+            .btn:hover {
+                background-color: $color_btn;
+                color: white;
+            }
+        }
+    }
+}
