@@ -11,6 +11,7 @@
 }
 
 header {
+  font-family: "Noto Sans", sans-serif;
   background-color: #ffffff;
   display: flex;
   justify-content: center;
@@ -50,12 +51,14 @@ header .container-nav nav ul a:hover {
   color: #30488f;
 }
 
-header .container-nav nav .btn:hover {
+header .container-nav nav .btn:hover,
+header .container-nav nav .btn-large:hover {
   background-color: #30488f;
   color: white;
 }
 
-.btn {
+.btn,
+.btn-large {
   color: #30488f;
   font-size: 15px;
   padding: 10px;
@@ -64,27 +67,60 @@ header .container-nav nav .btn:hover {
   cursor: pointer;
 }
 
+.btn-large {
+  background-color: #30488f;
+  padding: 10px 20px;
+  color: white;
+}
+
 section {
+  font-family: "Noto Sans", sans-serif;
   display: flex;
   justify-content: center;
 }
 
 section .container-1 {
+  margin-top: 100px;
   width: 80%;
   height: 700px;
 }
 
 section .container-1 .form-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   float: left;
   width: 50%;
-  height: 100%;
-  border: 1px solid #bdb5af;
+  height: 500px;
+}
+
+section .container-1 .form-left h1 {
+  font-size: 50px;
+  color: #58402c;
+}
+
+section .container-1 .form-left p {
+  font-size: 20px;
+  color: #58402c;
+}
+
+section .container-1 .form-left .btn-large:hover {
+  background-color: darkblue;
 }
 
 section .container-1 .form-right {
   float: right;
+  padding-left: 80px;
   width: 50%;
-  height: 100%;
-  border: 1px solid #bdb5af;
+  height: 500px;
+}
+
+section .container-1 .form-right img {
+  height: 400px;
+  width: 500px;
+}
+
+footer {
+  font-family: "Noto Sans", sans-serif;
 }
 

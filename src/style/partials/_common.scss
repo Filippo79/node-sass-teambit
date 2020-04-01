@@ -5,4 +5,10 @@
     border-radius: 10px;
     border: 1px solid $color_btn;
     cursor: pointer;
+    &-large {
+        @extend .btn;
+        background-color: $color_btn;
+        padding: 10px 20px;
+        color: white;
+    }
 }
