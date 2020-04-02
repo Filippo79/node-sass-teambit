@@ -1,0 +1,43 @@
+section {
+    font-family: 'Noto Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    .container {
+        margin-top: 100px;
+        width: 80%;
+        height: 600px;
+        .form-left{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            float: left;
+            width: 50%;
+            height: 500px;
+            h1 {
+                font-size: 50px;
+                color: $color_text;
+            }
+            p {
+                font-size: 20px;
+                color: $color_text;
+            }
+            p:last-child {
+                font-size: 10px;
+                color: $color_text;
+            }
+            .btn-large:hover {
+                background-color: darkblue;
+            }
+        }
+        .form-right {
+            float:right;
+            padding-left: 80px;
+            width: 50%;
+            height: 500px;
+            img {
+                height: 400px;
+                width: 500px;
+            }
+        }
+    }
+}
