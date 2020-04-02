@@ -2,10 +2,10 @@ section {
     font-family: 'Noto Sans', sans-serif;
     display: flex;
     justify-content: center;
-    .container-1 {
+    .container {
         margin-top: 100px;
         width: 80%;
-        height: 700px;
+        height: 600px;
         .form-left{
             display: flex;
             flex-direction: column;
@@ -19,6 +19,10 @@ section {
             }
             p {
                 font-size: 20px;
+                color: $color_text;
+            }
+            p:last-child {
+                font-size: 10px;
                 color: $color_text;
             }
             .btn-large:hover {
@@ -36,4 +40,56 @@ section {
             }
         }
     }
+}
+section.traditional {
+    background-color: $secondary_color;
+    height: 1000px;
+    .container-1 {
+        width: 80%;
+        height: 900px;
+        border-bottom: 2px solid #cdc1b8;
+        .traditional-people {
+            width: 700px;
+            margin: 0 auto;
+            h2 {
+                color: $color_text;
+                text-align: center;
+                padding: 40px;
+            }
+        }
+        .blocco-image {
+            display:flex;
+            justify-content: center;
+            padding-top: 50px;
+            width: 100%;
+            height: 250px;
+            .image {
+                width: 250px;
+                height: 200px;
+                float: left;
+                text-align: center;
+                img {
+                    width: 150px;
+                    height: 100px;
+                    margin-bottom: 20px;
+                }
+                p {
+                    color: $color_text;
+                    font-size: 15px;
+                }
+            }
+
+        }
+    }
+    .image-center {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 50px;
+        img {
+            width: 350px;
+            height: 350px;
+        }
+    }
+
 }

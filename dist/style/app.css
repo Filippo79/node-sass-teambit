@@ -79,13 +79,13 @@ section {
   justify-content: center;
 }
 
-section .container-1 {
+section .container {
   margin-top: 100px;
   width: 80%;
-  height: 700px;
+  height: 600px;
 }
 
-section .container-1 .form-left {
+section .container .form-left {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -94,30 +94,95 @@ section .container-1 .form-left {
   height: 500px;
 }
 
-section .container-1 .form-left h1 {
+section .container .form-left h1 {
   font-size: 50px;
   color: #58402c;
 }
 
-section .container-1 .form-left p {
+section .container .form-left p {
   font-size: 20px;
   color: #58402c;
 }
 
-section .container-1 .form-left .btn-large:hover {
+section .container .form-left p:last-child {
+  font-size: 10px;
+  color: #58402c;
+}
+
+section .container .form-left .btn-large:hover {
   background-color: darkblue;
 }
 
-section .container-1 .form-right {
+section .container .form-right {
   float: right;
   padding-left: 80px;
   width: 50%;
   height: 500px;
 }
 
-section .container-1 .form-right img {
+section .container .form-right img {
   height: 400px;
   width: 500px;
+}
+
+section.traditional {
+  background-color: #ffe7d2;
+  height: 1000px;
+}
+
+section.traditional .container-1 {
+  width: 80%;
+  height: 900px;
+  border-bottom: 2px solid #cdc1b8;
+}
+
+section.traditional .container-1 .traditional-people {
+  width: 700px;
+  margin: 0 auto;
+}
+
+section.traditional .container-1 .traditional-people h2 {
+  color: #58402c;
+  text-align: center;
+  padding: 40px;
+}
+
+section.traditional .container-1 .blocco-image {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  width: 100%;
+  height: 250px;
+}
+
+section.traditional .container-1 .blocco-image .image {
+  width: 250px;
+  height: 200px;
+  float: left;
+  text-align: center;
+}
+
+section.traditional .container-1 .blocco-image .image img {
+  width: 150px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+section.traditional .container-1 .blocco-image .image p {
+  color: #58402c;
+  font-size: 15px;
+}
+
+section.traditional .image-center {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+section.traditional .image-center img {
+  width: 350px;
+  height: 350px;
 }
 
 footer {
