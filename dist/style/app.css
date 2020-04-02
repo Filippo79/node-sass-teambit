@@ -168,6 +168,11 @@ section.traditional .container-1 .blocco-image .image img {
   margin-bottom: 20px;
 }
 
+section.traditional .container-1 .blocco-image .image .small {
+  width: 80px;
+  height: 100px;
+}
+
 section.traditional .container-1 .blocco-image .image p {
   color: #58402c;
   font-size: 15px;
@@ -176,7 +181,8 @@ section.traditional .container-1 .blocco-image .image p {
 section.traditional .image-center {
   width: 100%;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   padding: 50px;
 }
 
